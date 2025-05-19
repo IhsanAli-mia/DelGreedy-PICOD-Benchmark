@@ -1,9 +1,9 @@
-from algorithms_singular.generate_matrix import Matrix
-from algorithms_singular.algorithm1 import algorithm1_picod
-from algorithms_singular.bingreedy import bingreedy
-from algorithms_singular.delgreedy import delgreedy
-from  algorithms_singular.Grcov_greedy import GrCovTgreedy
-from algorithms_singular.IGrCov import ImpGrCov
+from algorithms_picod1.generate_matrix import Matrix
+from algorithms_picod1.algorithm1 import algorithm1_picod
+from algorithms_picod1.bingreedy import bingreedy
+from algorithms_picod1.delgreedy import delgreedy
+from  algorithms_picod1.Grcov_greedy import GrCovTgreedy
+from algorithms_picod1.IGrCov import ImpGrCov
 
 import numpy as np
 import copy

@@ -1,8 +1,8 @@
-from algorithms.generate_matrix import Matrix
-from algorithms.bingreedy import bingreedy
-from algorithms.delgreedy import delgreedy
-from  algorithms.Grcov_greedy import GrCovTgreedy
-from algorithms.IGrCov import ImpGrCov
+from algorithms_picodt.generate_matrix import Matrix
+from algorithms_picodt.bingreedy import bingreedy
+from algorithms_picodt.delgreedy import delgreedy
+from  algorithms_picodt.Grcov_greedy import GrCovTgreedy
+from algorithms_picodt.IGrCov import ImpGrCov
 
 import numpy as np
 import copy

@@ -1,19 +1,19 @@
 from itertools import combinations
 import numpy as np
-from algorithms_singular.generate_matrix import Matrix
+from algorithms_picod1.generate_matrix import Matrix
 from algorithms.generate_matrix import Matrix as Matrix_multiple
 import copy
 
-from algorithms_singular.algorithm1 import algorithm1_picod
-from algorithms_singular.bingreedy import bingreedy
-from algorithms_singular.delgreedy import delgreedy
-from  algorithms_singular.Grcov_greedy import GrCovTgreedy
-from algorithms_singular.IGrCov import ImpGrCov
+from algorithms_picod1.algorithm1 import algorithm1_picod
+from algorithms_picod1.bingreedy import bingreedy
+from algorithms_picod1.delgreedy import delgreedy
+from  algorithms_picod1.Grcov_greedy import GrCovTgreedy
+from algorithms_picod1.IGrCov import ImpGrCov
 
-from algorithms.bingreedy import bingreedy as bingreedy_multiple
-from algorithms.delgreedy import delgreedy as delreedy_multiple
-from  algorithms.Grcov_greedy import GrCovTgreedy as GrCovTgreedy_multiple
-from algorithms.IGrCov import ImpGrCov as ImpGrCov_multiple
+from algorithms_picodt.bingreedy import bingreedy as bingreedy_multiple
+from algorithms_picodt.delgreedy import delgreedy as delreedy_multiple
+from  algorithms_picodt.Grcov_greedy import GrCovTgreedy as GrCovTgreedy_multiple
+from algorithms_picodt.IGrCov import ImpGrCov as ImpGrCov_multiple
 
 ## CASE 1: m = 8, d = 1,2,6,7
 
