@@ -14,3 +14,10 @@ This repository contains implementations and benchmarking code for multiple algo
   <li><b>GRCOV</b> From <a href='https://ieeexplore.ieee.org/document/7254174'>paper</a></li>
   <li><b>ImpGrCov</b> From <a href='https://ieeexplore.ieee.org/document/10313405'>paper</a></li>
 </ul>
+
+The goal is to compare DelGreedy's performance (average time taken and average number of transmissions) against existing approaches in both:
+
+<ul>
+  <li><b>PICOD-1</b> (Single round case, t = 1)</li>
+  <li><b>PICOD-t</b> (Multi round case, t > 1)</li>
+</ul>
