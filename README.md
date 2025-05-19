@@ -24,6 +24,18 @@ The goal is to compare DelGreedy's performance (average time taken and average n
 
 ## Setup and Installation
 
+1.Clone the repo:
+
 ```bash
 https://github.com/IhsanAli-mia/DelGreedy-PICOD-Benchmark.git
+cd DelGreedy-PICOD-Benchmark
+```
+2. Install dependencies:
+```bash
+pip install numpy
+```
+3. Run benchmarks:
+```bash
+python benchmark_picod1.py  # For t=1 case  
+python benchmark_picodt.py   # For t>1 case
 ```
