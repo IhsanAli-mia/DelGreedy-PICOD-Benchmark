@@ -9,5 +9,5 @@ This repository contains implementations and benchmarking code for multiple algo
 
 <ul>
   <li><b>DelGreedy</b> (Our proposed algorithm)</li>
-  <li><b>Algorithm 1</b> From paper <a>https://arxiv.org/abs/2208.10389</a></li>
+  <li><b>Algorithm 1</b> From <a href='https://arxiv.org/abs/2208.10389'>paper</a></li>
 </ul>
