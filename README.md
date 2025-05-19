@@ -57,11 +57,8 @@ python benchmark_picodt.py   # For t>1 case
 │       ├── generate_matrix.py  
 │       ├── Grow_greedy.py  
 │       └── lGrCov.py  
-│  
-├── benchmarks/  
-│   ├── benchmark_picod1.py       # Benchmark script for PICOD-1  
-│   └── benchmark_picodt.py       # Benchmark script for PICOD-t  
-│  
+├── benchmark_picod1.py       # Benchmark script for PICOD-1  
+└── benchmark_picodt.py       # Benchmark script for PICOD-t  
 ├── example.py                   # Example usage or demo  
 ├── README.md                    # Project documentation  
 └── .gitignore                   # Ignore files (e.g., __pycache__)  
