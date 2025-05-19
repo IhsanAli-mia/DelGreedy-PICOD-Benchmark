@@ -21,3 +21,9 @@ The goal is to compare DelGreedy's performance (average time taken and average n
   <li><b>PICOD-1</b> (Single round case, t = 1)</li>
   <li><b>PICOD-t</b> (Multi round case, t > 1)</li>
 </ul>
+
+## Setup and Installation
+
+```bash
+https://github.com/IhsanAli-mia/DelGreedy-PICOD-Benchmark.git
+```
