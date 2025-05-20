@@ -42,21 +42,19 @@ python benchmark_picodt.py   # For t>1 case
 
 ## Repository Structure
 ```bash
-├── algorithms/  
-│   ├── picod1/                  # Algorithms for PICOD-1 (t=1)  
-│   │   ├── algorithm1.py  
-│   │   ├── bingreedy.py  
-│   │   ├── delgreedy.py         
-│   │   ├── generate_matrix.py  
-│   │   ├── Grow_greedy.py  
-│   │   └── lGrCov.py  
-│   │  
-│   └── picodt/                  # Algorithms for PICOD-t (t>1)  
-│       ├── bingreedy.py  
-│       ├── delgreedy.py  
-│       ├── generate_matrix.py  
-│       ├── Grow_greedy.py  
-│       └── lGrCov.py  
+├── algorithms_picod1/            # Algorithms for PICOD-1 (t=1)  
+│   ├── algorithm1.py  
+│   ├── bingreedy.py  
+│   ├── delgreedy.py         
+│   ├── generate_matrix.py  
+│   ├── Grow_greedy.py  
+│   └── lGrCov.py    
+├── algorithms_picodt/                  # Algorithms for PICOD-t (t>1)  
+│   ├── bingreedy.py  
+│   ├── delgreedy.py  
+│   ├── generate_matrix.py  
+│   ├── Grow_greedy.py  
+│   └── lGrCov.py  
 ├── benchmark_picod1.py       # Benchmark script for PICOD-1  
 └── benchmark_picodt.py       # Benchmark script for PICOD-t  
 ├── example.py                   # Example usage or demo  
